@@ -1,8 +1,6 @@
-package printc
+package pkg
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func PrintC() {
 	fmt.Println("Hello XiaoC")
