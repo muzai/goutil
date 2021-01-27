@@ -1,7 +1,14 @@
 package pkg
 
-import "fmt"
+/*
+#include <stdio.h>
 
-func PrintC() {
-	fmt.Println("Hello XiaoC")
+void sayHello(){
+    printf("Hello, XiaoC!");
+}
+*/
+import "C"
+
+func printc(){
+    C.sayHello()
 }
